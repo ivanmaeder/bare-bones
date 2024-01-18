@@ -1,3 +1,6 @@
+/bin/dockcross
+/build
+
 # Prerequisites
 *.d
 
