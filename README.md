@@ -16,3 +16,6 @@ To test the build, try the following (`/work` is the volume into which `.` is mo
 ```bash
 bin/dockcross bash -c '$CC /work/hello.c -o build/hello'
 ```
+
+### Code
+For ASM syntax highlighting, I installed [this](https://marketplace.visualstudio.com/items?itemName=basdp.language-gas-x86) Visual Studio Code plugin.
