@@ -11,7 +11,7 @@ chmod +x ./dockcross
 mv ./dockcross ./bin
 ```
 
-To test the build, try the following (`/work` is the volume into which `.` is mounted). Note that the object file won't run unless you're on the **linux-i686** platform.
+To test the build, try the following (`/work` is the volume into which `.` is mounted). Note that the object file will only run on **linux-i686**.
 
 ```bash
 bin/dockcross bash -c '$CC /work/hello.c -o build/hello'
